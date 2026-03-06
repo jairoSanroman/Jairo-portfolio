@@ -1,4 +1,3 @@
-
 {
   "placeholderImages": [
     {
@@ -9,21 +8,21 @@
     },
     {
       "id": "project-incidencias",
-      "description": "Dashboard para el Sistema de Gestión de Incidencias",
-      "imageUrl": "https://picsum.photos/seed/incidencias/800/600",
-      "imageHint": "software dashboard interface"
+      "description": "Dashboard para el Sistema de Gestión de Incidencias con tarjetas tipo Kanban",
+      "imageUrl": "https://picsum.photos/seed/incidencias-tickets/800/600",
+      "imageHint": "dashboard kanban tickets"
     },
     {
       "id": "project-ai-job",
-      "description": "Interfaz de AI Job Hunt Assistant",
-      "imageUrl": "https://picsum.photos/seed/ai-job/800/600",
-      "imageHint": "artificial intelligence application"
+      "description": "Interfaz de AI Job Hunt Assistant con elementos de IA y currículums",
+      "imageUrl": "https://picsum.photos/seed/ai-job-search/800/600",
+      "imageHint": "ai robot resume job"
     },
     {
       "id": "project-pokemon",
-      "description": "Vista de Pokémon Run Tracker",
-      "imageUrl": "https://picsum.photos/seed/pokemon-tracker/800/600",
-      "imageHint": "pixel art gaming monster"
+      "description": "Estética de Pokémon Run Tracker con estilo pixel art",
+      "imageUrl": "https://picsum.photos/seed/pokemon-pixel-art/800/600",
+      "imageHint": "pixel art monster game"
     },
     {
       "id": "exp-iss",
