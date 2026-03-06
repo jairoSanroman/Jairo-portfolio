@@ -3,42 +3,45 @@ import Image from "next/image"
 import { Card, CardContent, CardHeader, CardTitle, CardDescription, CardFooter } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
-import { ExternalLink, Github, ChevronRight } from "lucide-react"
+import { ExternalLink, Github, ChevronRight, Globe } from "lucide-react"
 import { PlaceHolderImages } from "@/lib/placeholder-images"
 
 const projects = [
   {
     id: "project-pokemon",
     title: "Pokémon Run Tracker (Lovable)",
-    description: "Plataforma para gestionar retos Nuzlocke de Pokémon con seguimiento visual de rutas y equipos.",
-    technologies: ["Lovable", "React", "State Management", "UX Design"],
-    role: ["Lógica de gestión de rutas.", "Prototipado rápido.", "Interfaz gamificada."]
+    description: "Plataforma para gestionar retos Nuzlocke de Pokémon con seguimiento visual de rutas, equipos y reglas personalizadas.",
+    technologies: ["Lovable", "React", "State Management", "Tailwind"],
+    github: "https://github.com",
+    demo: "https://demo.com"
   },
   {
     id: "project-incidencias",
     title: "Sistema de Gestión de Incidencias",
-    description: "Aplicación backend para gestionar tickets internos, enfocada en la centralización y seguimiento.",
-    technologies: ["Java 17", "Spring Boot 3", "PostgreSQL", "JWT", "Swagger"],
-    role: ["API REST segura con JWT.", "Entidades JPA y Postgres.", "Documentación técnica."]
+    description: "Aplicación robusta para la gestión de tickets corporativos. Backend securizado con JWT y documentación Swagger completa.",
+    technologies: ["Java 17", "Spring Boot", "PostgreSQL", "JWT"],
+    github: "https://github.com",
+    demo: "https://demo.com"
   },
   {
     id: "project-ai-job",
     title: "AI Job Hunt Assistant",
-    description: "Herramienta web impulsada por IA que analiza ofertas laborales y personaliza CVs automáticamente.",
-    technologies: ["React", "Node.js", "Express", "OpenAI API", "Axios"],
-    role: ["Integración con GPT de OpenAI.", "Backend en Node/Express.", "Diseño de UI funcional."]
+    description: "Asistente inteligente que optimiza la búsqueda de empleo. Analiza ofertas y adapta el CV automáticamente usando OpenAI.",
+    technologies: ["Node.js", "OpenAI API", "React", "Express"],
+    github: "https://github.com",
+    demo: "https://demo.com"
   }
 ]
 
 export function Projects() {
   return (
     <section id="proyectos" className="py-24 px-4 md:px-8 bg-background">
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-7xl mx-auto">
         <div className="flex flex-col items-center mb-16 text-center">
           <h2 className="text-3xl md:text-5xl font-headline font-bold mb-4">Proyectos Destacados</h2>
           <div className="h-1.5 w-20 bg-primary rounded-full mb-6"></div>
-          <p className="text-muted-foreground max-w-2xl">
-            Selección de mis trabajos recientes donde aplico lógica de programación e Inteligencia Artificial.
+          <p className="text-muted-foreground max-w-2xl text-lg">
+            Selección de mis trabajos más representativos integrando lógica compleja, bases de datos e Inteligencia Artificial.
           </p>
         </div>
 
@@ -46,56 +49,48 @@ export function Projects() {
           {projects.map((project) => {
             const img = PlaceHolderImages.find(i => i.id === project.id)
             return (
-              <Card key={project.id} className="group overflow-hidden border-border bg-card flex flex-col hover:border-primary/50 transition-all duration-300 shadow-lg">
-                <div className="relative h-56 overflow-hidden bg-muted">
+              <Card key={project.id} className="group overflow-hidden border-white/5 bg-card/50 flex flex-col hover:border-primary/40 hover:bg-card transition-all duration-500 shadow-2xl rounded-[2.5rem] backdrop-blur-sm">
+                <div className="relative h-64 overflow-hidden bg-muted/20">
                   <Image 
                     src={img?.imageUrl || "https://picsum.photos/seed/project/800/600"} 
                     alt={project.title}
                     fill
-                    className="object-cover w-full h-full group-hover:scale-105 transition-transform duration-500"
+                    className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-700"
                     data-ai-hint={img?.imageHint || "software interface"}
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-transparent to-transparent opacity-60 group-hover:opacity-40 transition-opacity" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-transparent to-transparent opacity-80" />
                   
-                  <div className="absolute top-4 right-4 flex gap-2">
-                    <Button size="icon" variant="secondary" className="rounded-full w-8 h-8 bg-background/50 backdrop-blur-sm border-none hover:bg-primary hover:text-white transition-all">
-                      <Github className="w-4 h-4" />
-                    </Button>
-                    <Button size="icon" variant="secondary" className="rounded-full w-8 h-8 bg-background/50 backdrop-blur-sm border-none hover:bg-primary hover:text-white transition-all">
-                      <ExternalLink className="w-4 h-4" />
-                    </Button>
+                  <div className="absolute top-6 right-6 flex gap-3 opacity-0 group-hover:opacity-100 transform translate-y-4 group-hover:translate-y-0 transition-all duration-500">
+                    <a href={project.github} target="_blank" rel="noopener noreferrer">
+                      <Button size="icon" variant="secondary" className="rounded-full w-10 h-10 bg-background/80 backdrop-blur-md border border-white/10 hover:bg-primary hover:text-white transition-all shadow-xl">
+                        <Github className="w-5 h-5" />
+                      </Button>
+                    </a>
+                    <a href={project.demo} target="_blank" rel="noopener noreferrer">
+                      <Button size="icon" variant="secondary" className="rounded-full w-10 h-10 bg-background/80 backdrop-blur-md border border-white/10 hover:bg-primary hover:text-white transition-all shadow-xl">
+                        <Globe className="w-5 h-5" />
+                      </Button>
+                    </a>
                   </div>
                 </div>
                 
-                <CardHeader className="p-6 pb-2">
-                  <div className="flex flex-wrap gap-1.5 mb-3">
-                    {project.technologies.slice(0, 3).map(tech => (
-                      <Badge key={tech} variant="outline" className="text-[10px] py-0 border-primary/20 bg-primary/5 text-primary">
+                <CardHeader className="p-8 pb-4">
+                  <div className="flex flex-wrap gap-2 mb-4">
+                    {project.technologies.map(tech => (
+                      <Badge key={tech} variant="outline" className="text-[10px] py-0.5 px-3 border-white/10 bg-white/5 text-muted-foreground group-hover:text-primary group-hover:border-primary/20 transition-colors uppercase font-bold tracking-tighter">
                         {tech}
                       </Badge>
                     ))}
                   </div>
-                  <CardTitle className="font-headline text-xl mb-2 group-hover:text-primary transition-colors">{project.title}</CardTitle>
-                  <CardDescription className="line-clamp-2 text-sm leading-relaxed">{project.description}</CardDescription>
+                  <CardTitle className="font-headline text-2xl mb-3 group-hover:text-primary transition-colors tracking-tight">{project.title}</CardTitle>
+                  <CardDescription className="text-muted-foreground text-sm md:text-base leading-relaxed line-clamp-3">
+                    {project.description}
+                  </CardDescription>
                 </CardHeader>
 
-                <CardContent className="p-6 pt-2 flex-grow">
-                  <div className="space-y-2">
-                    <p className="text-[10px] font-bold uppercase tracking-widest text-muted-foreground">Logro clave:</p>
-                    <ul className="text-xs space-y-1.5 text-muted-foreground">
-                      {project.role.map((item, idx) => (
-                        <li key={idx} className="flex items-start gap-2">
-                          <ChevronRight className="w-3 h-3 text-primary flex-shrink-0 mt-0.5" />
-                          <span>{item}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                </CardContent>
-
-                <CardFooter className="p-6 pt-0 mt-auto border-t border-border/50 bg-muted/5">
-                  <Button variant="link" className="p-0 text-primary hover:text-primary/80 group/btn h-auto mt-4">
-                    Detalles del proyecto <ChevronRight className="w-4 h-4 ml-1 group-hover/btn:translate-x-1 transition-transform" />
+                <CardFooter className="p-8 pt-0 mt-auto">
+                  <Button variant="link" className="p-0 text-primary hover:text-primary/80 group/btn h-auto font-bold uppercase text-xs tracking-widest">
+                    Explorar proyecto <ChevronRight className="w-4 h-4 ml-2 group-hover/btn:translate-x-2 transition-transform" />
                   </Button>
                 </CardFooter>
               </Card>

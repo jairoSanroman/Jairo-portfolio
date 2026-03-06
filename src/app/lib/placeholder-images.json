@@ -28,25 +28,25 @@
     {
       "id": "exp-iss",
       "description": "Persona con guantes azules realizando tareas de limpieza profesional",
-      "imageUrl": "https://picsum.photos/seed/cleaning-blue-gloves/400/300",
+      "imageUrl": "https://picsum.photos/seed/cleaning-blue-gloves/800/600",
       "imageHint": "blue gloves white cloth cleaning"
     },
     {
       "id": "exp-absolute",
       "description": "Soporte IT y programación en entorno de oficina moderna",
-      "imageUrl": "https://picsum.photos/seed/code-office-it/400/300",
+      "imageUrl": "https://picsum.photos/seed/code-office-it/800/600",
       "imageHint": "programming office"
     },
     {
       "id": "exp-id3",
       "description": "Equipos tecnológicos y mantenimiento de hardware",
-      "imageUrl": "https://picsum.photos/seed/server-hardware-tech/400/300",
+      "imageUrl": "https://picsum.photos/seed/server-hardware-tech/800/600",
       "imageHint": "computer server hardware"
     },
     {
       "id": "exp-stellantis",
       "description": "Planta de fabricación de automóviles de alta tecnología",
-      "imageUrl": "https://picsum.photos/seed/car-factory-line/400/300",
+      "imageUrl": "https://picsum.photos/seed/car-factory-line/800/600",
       "imageHint": "car factory"
     }
   ]

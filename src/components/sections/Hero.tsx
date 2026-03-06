@@ -18,7 +18,7 @@ export function Hero() {
             Disponible para trabajar
           </div>
           
-          <h1 className="text-5xl md:text-7xl font-headline font-bold mb-4">
+          <h1 className="text-5xl md:text-7xl font-headline font-bold mb-4 tracking-tighter">
             Jairo Sanromán
           </h1>
           
@@ -31,15 +31,15 @@ export function Hero() {
           </p>
 
           <div className="flex flex-wrap gap-4 justify-center md:justify-start">
-            <Button size="lg" className="rounded-full bg-primary hover:bg-primary/90 text-white gap-2 neon-glow-blue">
+            <Button size="lg" className="rounded-full bg-primary hover:bg-primary/90 text-white gap-2 neon-glow-blue h-12 px-8">
               Contactar <Mail className="w-4 h-4" />
             </Button>
-            <Button variant="outline" size="lg" className="rounded-full border-muted-foreground/20 hover:border-primary/50 gap-2">
+            <Button variant="outline" size="lg" className="rounded-full border-white/10 hover:border-primary/50 gap-2 h-12 px-8 bg-white/5 backdrop-blur-sm">
               Ver CV <FileText className="w-4 h-4" />
             </Button>
           </div>
 
-          <div className="flex gap-6 mt-10">
+          <div className="flex gap-6 mt-12">
             <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
               <Github className="w-6 h-6" />
             </a>
@@ -51,27 +51,36 @@ export function Hero() {
 
         <div className="order-1 md:order-2 flex justify-center">
           <div className="relative">
-            <div className="absolute -inset-4 bg-gradient-to-r from-primary to-secondary rounded-full blur-2xl opacity-20 animate-pulse"></div>
-            <div className="relative w-64 h-64 md:w-[400px] md:h-[400px] rounded-full overflow-hidden border-4 border-primary/30 bg-card shadow-2xl neon-glow-blue group">
-              <Image 
-                src={profileImg?.imageUrl || "https://picsum.photos/seed/jairo/600/600"} 
-                alt="Jairo Sanromán"
-                width={600}
-                height={600}
-                className="object-cover w-full h-full grayscale group-hover:grayscale-0 transition-all duration-700"
-                data-ai-hint={profileImg?.imageHint || "professional man portrait"}
-                priority
-              />
+            {/* Anillo brillante animado */}
+            <div className="absolute -inset-4 bg-gradient-to-tr from-primary via-secondary to-primary rounded-full blur-2xl opacity-30 animate-pulse"></div>
+            
+            {/* Contenedor circular con borde brillante */}
+            <div className="relative w-64 h-64 md:w-[420px] md:h-[420px] rounded-full p-2 bg-gradient-to-tr from-primary/40 to-secondary/40">
+              <div className="w-full h-full rounded-full overflow-hidden border-4 border-background/50 bg-card shadow-2xl relative group">
+                <Image 
+                  src={profileImg?.imageUrl || "https://picsum.photos/seed/jairo/600/600"} 
+                  alt="Jairo Sanromán"
+                  width={600}
+                  height={600}
+                  className="object-cover w-full h-full grayscale group-hover:grayscale-0 transition-all duration-700 scale-110 group-hover:scale-100"
+                  data-ai-hint={profileImg?.imageHint || "professional man portrait"}
+                  priority
+                />
+                {/* Overlay de degradado */}
+                <div className="absolute inset-0 bg-gradient-to-t from-background/40 to-transparent pointer-events-none" />
+              </div>
             </div>
-            <div className="absolute -bottom-2 -right-2 bg-background/80 backdrop-blur-md border border-border rounded-2xl px-4 py-2 shadow-xl">
-              <p className="text-xs font-bold text-muted-foreground uppercase tracking-tighter">Basado en</p>
-              <p className="text-sm font-bold text-gradient-blue">Vigo, España</p>
+            
+            {/* Etiqueta de ubicación flotante */}
+            <div className="absolute -bottom-2 -right-4 bg-background/90 backdrop-blur-xl border border-white/10 rounded-2xl px-5 py-3 shadow-2xl neon-glow-blue transform rotate-3">
+              <p className="text-[10px] font-bold text-muted-foreground uppercase tracking-widest mb-1">Basado en</p>
+              <p className="text-sm font-bold text-gradient-blue">Vigo, España 🇪🇸</p>
             </div>
           </div>
         </div>
       </div>
       
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce opacity-30">
+      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce opacity-20">
         <ArrowRight className="w-6 h-6 rotate-90" />
       </div>
     </section>
