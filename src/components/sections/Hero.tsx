@@ -40,10 +40,10 @@ export function Hero() {
           </div>
 
           <div className="flex gap-6 mt-10">
-            <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
               <Github className="w-6 h-6" />
             </a>
-            <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
               <Linkedin className="w-6 h-6" />
             </a>
           </div>
