@@ -21,8 +21,32 @@
     {
       "id": "project-pokemon",
       "description": "Pokémon Run Tracker mobile app view",
-      "imageUrl": "https://picsum.photos/seed/pokemon/800/600",
-      "imageHint": "gaming app UI"
+      "imageUrl": "https://picsum.photos/seed/pokemon-game/800/600",
+      "imageHint": "pixel art gaming"
+    },
+    {
+      "id": "exp-iss",
+      "description": "Industrial maintenance and services",
+      "imageUrl": "https://picsum.photos/seed/cleaning-serv/400/300",
+      "imageHint": "industrial maintenance"
+    },
+    {
+      "id": "exp-absolute",
+      "description": "IT Support and programming",
+      "imageUrl": "https://picsum.photos/seed/it-support-office/400/300",
+      "imageHint": "programmer workplace"
+    },
+    {
+      "id": "exp-id3",
+      "description": "Technology equipment and software",
+      "imageUrl": "https://picsum.photos/seed/tech-gear/400/300",
+      "imageHint": "hardware server"
+    },
+    {
+      "id": "exp-stellantis",
+      "description": "Car manufacturing plant",
+      "imageUrl": "https://picsum.photos/seed/car-factory/400/300",
+      "imageHint": "automotive industry"
     }
   ]
 }
