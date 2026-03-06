@@ -1,4 +1,3 @@
-
 import Image from "next/image"
 import { Badge } from "@/components/ui/badge"
 import { PlaceHolderImages } from "@/lib/placeholder-images"
