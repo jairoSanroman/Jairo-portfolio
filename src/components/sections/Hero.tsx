@@ -52,13 +52,13 @@ export function Hero() {
         <div className="order-1 md:order-2 flex justify-center">
           <div className="relative">
             <div className="absolute -inset-4 bg-gradient-to-r from-primary to-secondary rounded-full blur-2xl opacity-20 animate-pulse"></div>
-            <div className="relative w-64 h-64 md:w-[400px] md:h-[400px] rounded-full overflow-hidden border-4 border-primary/30 bg-card shadow-2xl neon-glow-blue">
+            <div className="relative w-64 h-64 md:w-[400px] md:h-[400px] rounded-full overflow-hidden border-4 border-primary/30 bg-card shadow-2xl neon-glow-blue group">
               <Image 
                 src={profileImg?.imageUrl || "https://picsum.photos/seed/jairo/600/600"} 
                 alt="Jairo Sanromán"
                 width={600}
                 height={600}
-                className="object-cover w-full h-full grayscale hover:grayscale-0 transition-all duration-700"
+                className="object-cover w-full h-full grayscale group-hover:grayscale-0 transition-all duration-700"
                 data-ai-hint={profileImg?.imageHint || "professional man portrait"}
                 priority
               />

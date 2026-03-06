@@ -70,7 +70,7 @@ export function Experience() {
                   <div className="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent" />
                   <Badge 
                     className={`absolute top-4 left-4 ${
-                      exp.type === 'IT' ? 'bg-primary text-white border-none' : 'bg-secondary text-background border-none'
+                      exp.type === 'IT' ? 'bg-primary text-white border-none shadow-lg' : 'bg-secondary text-background border-none shadow-lg'
                     }`}
                   >
                     {exp.type}
