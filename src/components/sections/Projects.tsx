@@ -1,3 +1,4 @@
+
 import Image from "next/image"
 import { Card, CardContent, CardHeader, CardTitle, CardDescription, CardFooter } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
@@ -7,37 +8,25 @@ import { PlaceHolderImages } from "@/lib/placeholder-images"
 
 const projects = [
   {
+    id: "project-pokemon",
+    title: "Pokémon Run Tracker (Lovable)",
+    description: "Plataforma para gestionar retos Nuzlocke de Pokémon con seguimiento visual de rutas y equipos.",
+    technologies: ["Lovable", "React", "State Management", "UX Design"],
+    role: ["Lógica de gestión de rutas.", "Prototipado rápido.", "Interfaz gamificada."]
+  },
+  {
     id: "project-incidencias",
     title: "Sistema de Gestión de Incidencias",
-    description: "Aplicación backend para gestionar tickets internos, enfocada en la centralización, asignación y seguimiento de incidencias.",
+    description: "Aplicación backend para gestionar tickets internos, enfocada en la centralización y seguimiento.",
     technologies: ["Java 17", "Spring Boot 3", "PostgreSQL", "JWT", "Swagger"],
-    role: [
-      "API REST segura con JWT.",
-      "Entidades JPA y Postgres.",
-      "Documentación técnica."
-    ]
+    role: ["API REST segura con JWT.", "Entidades JPA y Postgres.", "Documentación técnica."]
   },
   {
     id: "project-ai-job",
     title: "AI Job Hunt Assistant",
-    description: "Herramienta web impulsada por IA que analiza ofertas laborales y personaliza CVs y mensajes para reclutadores de forma automática.",
+    description: "Herramienta web impulsada por IA que analiza ofertas laborales y personaliza CVs automáticamente.",
     technologies: ["React", "Node.js", "Express", "OpenAI API", "Axios"],
-    role: [
-      "Integración con GPT de OpenAI.",
-      "Backend en Node/Express.",
-      "Diseño de UI funcional."
-    ]
-  },
-  {
-    id: "project-pokemon",
-    title: "Pokémon Run Tracker (Lovable)",
-    description: "Plataforma para gestionar partidas personalizadas de Pokémon (retos Nuzlocke) con seguimiento visual de rutas y equipos.",
-    technologies: ["Lovable", "React", "State Management", "UX Design"],
-    role: [
-      "Lógica de gestión de rutas.",
-      "Prototipado rápido en Lovable.",
-      "Interfaz gamificada."
-    ]
+    role: ["Integración con GPT de OpenAI.", "Backend en Node/Express.", "Diseño de UI funcional."]
   }
 ]
 
@@ -49,7 +38,7 @@ export function Projects() {
           <h2 className="text-3xl md:text-5xl font-headline font-bold mb-4">Proyectos Destacados</h2>
           <div className="h-1.5 w-20 bg-primary rounded-full mb-6"></div>
           <p className="text-muted-foreground max-w-2xl">
-            Una selección de mis trabajos más recientes donde aplico lógica de programación, IA y diseño de experiencia de usuario.
+            Selección de mis trabajos recientes donde aplico lógica de programación e Inteligencia Artificial.
           </p>
         </div>
 
@@ -92,7 +81,7 @@ export function Projects() {
 
                 <CardContent className="p-6 pt-2 flex-grow">
                   <div className="space-y-2">
-                    <p className="text-[10px] font-bold uppercase tracking-widest text-muted-foreground">Contribución clave:</p>
+                    <p className="text-[10px] font-bold uppercase tracking-widest text-muted-foreground">Logro clave:</p>
                     <ul className="text-xs space-y-1.5 text-muted-foreground">
                       {project.role.map((item, idx) => (
                         <li key={idx} className="flex items-start gap-2">
@@ -106,7 +95,7 @@ export function Projects() {
 
                 <CardFooter className="p-6 pt-0 mt-auto border-t border-border/50 bg-muted/5">
                   <Button variant="link" className="p-0 text-primary hover:text-primary/80 group/btn h-auto mt-4">
-                    Explorar detalles <ChevronRight className="w-4 h-4 ml-1 group-hover/btn:translate-x-1 transition-transform" />
+                    Detalles del proyecto <ChevronRight className="w-4 h-4 ml-1 group-hover/btn:translate-x-1 transition-transform" />
                   </Button>
                 </CardFooter>
               </Card>
