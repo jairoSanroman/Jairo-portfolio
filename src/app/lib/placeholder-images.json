@@ -4,49 +4,49 @@
     {
       "id": "profile",
       "description": "Foto de perfil de Jairo Sanromán",
-      "imageUrl": "https://picsum.photos/seed/jairo-sanroman-real/600/600",
+      "imageUrl": "https://picsum.photos/seed/jairo-portrait/600/600",
       "imageHint": "young man portrait beard patterned shirt"
     },
     {
       "id": "project-incidencias",
       "description": "Dashboard para el Sistema de Gestión de Incidencias con tarjetas tipo Kanban",
-      "imageUrl": "https://picsum.photos/seed/incidencias-tickets/800/600",
-      "imageHint": "dashboard kanban tickets"
+      "imageUrl": "https://picsum.photos/seed/dashboard-ui/800/600",
+      "imageHint": "software dashboard interface"
     },
     {
       "id": "project-ai-job",
       "description": "Interfaz de AI Job Hunt Assistant con elementos de IA y currículums",
-      "imageUrl": "https://picsum.photos/seed/ai-job-search/800/600",
-      "imageHint": "ai robot resume job"
+      "imageUrl": "https://picsum.photos/seed/ai-assistant-resume/800/600",
+      "imageHint": "artificial intelligence document"
     },
     {
       "id": "project-pokemon",
       "description": "Estética de Pokémon Run Tracker con estilo pixel art",
-      "imageUrl": "https://picsum.photos/seed/pokemon-pixel-art/800/600",
-      "imageHint": "pixel art monster game"
+      "imageUrl": "https://picsum.photos/seed/pixel-monster-game/800/600",
+      "imageHint": "pixel art monster"
     },
     {
       "id": "exp-iss",
-      "description": "Mantenimiento y servicios industriales",
-      "imageUrl": "https://picsum.photos/seed/industrial-maintenance/400/300",
-      "imageHint": "industrial work"
+      "description": "Mantenimiento y servicios industriales con equipo de limpieza profesional",
+      "imageUrl": "https://picsum.photos/seed/cleaning-gloves-spray/400/300",
+      "imageHint": "cleaning gloves spray"
     },
     {
       "id": "exp-absolute",
-      "description": "Soporte IT y programación",
-      "imageUrl": "https://picsum.photos/seed/it-support/400/300",
+      "description": "Soporte IT y programación en entorno de oficina moderna",
+      "imageUrl": "https://picsum.photos/seed/code-office-it/400/300",
       "imageHint": "programming office"
     },
     {
       "id": "exp-id3",
-      "description": "Equipos tecnológicos",
-      "imageUrl": "https://picsum.photos/seed/tech-hardware/400/300",
+      "description": "Equipos tecnológicos y mantenimiento de hardware",
+      "imageUrl": "https://picsum.photos/seed/server-hardware-tech/400/300",
       "imageHint": "computer server hardware"
     },
     {
       "id": "exp-stellantis",
-      "description": "Planta de fabricación de automóviles",
-      "imageUrl": "https://picsum.photos/seed/automotive-plant/400/300",
+      "description": "Planta de fabricación de automóviles de alta tecnología",
+      "imageUrl": "https://picsum.photos/seed/car-factory-line/400/300",
       "imageHint": "car factory"
     }
   ]
