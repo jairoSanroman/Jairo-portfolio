@@ -66,12 +66,10 @@ export function Hero() {
                   data-ai-hint={profileImg?.imageHint || "professional man portrait"}
                   priority
                 />
-                {/* Overlay de degradado */}
                 <div className="absolute inset-0 bg-gradient-to-t from-background/40 to-transparent pointer-events-none" />
               </div>
             </div>
             
-            {/* Etiqueta de ubicación flotante */}
             <div className="absolute -bottom-2 -right-4 bg-background/90 backdrop-blur-xl border border-white/10 rounded-2xl px-5 py-3 shadow-2xl neon-glow-blue transform rotate-3">
               <p className="text-[10px] font-bold text-muted-foreground uppercase tracking-widest mb-1">Basado en</p>
               <p className="text-sm font-bold text-gradient-blue">Vigo, España 🇪🇸</p>

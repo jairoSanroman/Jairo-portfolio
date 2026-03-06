@@ -1,9 +1,9 @@
 
 import Image from "next/image"
-import { Card, CardContent, CardHeader, CardTitle, CardDescription, CardFooter } from "@/components/ui/card"
+import { Card, CardHeader, CardTitle, CardDescription, CardFooter } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
-import { ExternalLink, Github, ChevronRight, Globe } from "lucide-react"
+import { Github, ChevronRight, Globe } from "lucide-react"
 import { PlaceHolderImages } from "@/lib/placeholder-images"
 
 const projects = [
@@ -11,7 +11,7 @@ const projects = [
     id: "project-pokemon",
     title: "Pokémon Run Tracker (Lovable)",
     description: "Plataforma para gestionar retos Nuzlocke de Pokémon con seguimiento visual de rutas, equipos y reglas personalizadas.",
-    technologies: ["Lovable", "React", "State Management", "Tailwind"],
+    technologies: ["Lovable", "React", "Tailwind"],
     github: "https://github.com",
     demo: "https://demo.com"
   },
@@ -19,15 +19,15 @@ const projects = [
     id: "project-incidencias",
     title: "Sistema de Gestión de Incidencias",
     description: "Aplicación robusta para la gestión de tickets corporativos. Backend securizado con JWT y documentación Swagger completa.",
-    technologies: ["Java 17", "Spring Boot", "PostgreSQL", "JWT"],
+    technologies: ["Java 17", "Spring Boot", "PostgreSQL"],
     github: "https://github.com",
     demo: "https://demo.com"
   },
   {
     id: "project-ai-job",
     title: "AI Job Hunt Assistant",
-    description: "Asistente inteligente que optimiza la búsqueda de empleo. Analiza ofertas y adapta el CV automáticamente usando OpenAI.",
-    technologies: ["Node.js", "OpenAI API", "React", "Express"],
+    description: "Asistente inteligente que optimiza la búsqueda de empleo. Analiza ofertas y adapta el CV automáticamente usando IA.",
+    technologies: ["Node.js", "OpenAI", "React"],
     github: "https://github.com",
     demo: "https://demo.com"
   }
