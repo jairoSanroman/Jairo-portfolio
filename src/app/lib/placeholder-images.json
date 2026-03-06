@@ -1,0 +1,28 @@
+{
+  "placeholderImages": [
+    {
+      "id": "profile",
+      "description": "Professional profile photo of Jairo Sanromán",
+      "imageUrl": "https://picsum.photos/seed/jairo-sanroman/600/600",
+      "imageHint": "professional man portrait"
+    },
+    {
+      "id": "project-incidencias",
+      "description": "Dashboard for the Incident Management System",
+      "imageUrl": "https://picsum.photos/seed/incidencias/800/600",
+      "imageHint": "software dashboard interface"
+    },
+    {
+      "id": "project-ai-job",
+      "description": "AI Job Hunt Assistant user interface",
+      "imageUrl": "https://picsum.photos/seed/ai-job/800/600",
+      "imageHint": "artificial intelligence application"
+    },
+    {
+      "id": "project-pokemon",
+      "description": "Pokémon Run Tracker mobile app view",
+      "imageUrl": "https://picsum.photos/seed/pokemon/800/600",
+      "imageHint": "gaming app UI"
+    }
+  ]
+}
