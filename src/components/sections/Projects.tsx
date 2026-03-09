@@ -24,10 +24,10 @@ const projects = [
     demo: "https://demo.com"
   },
   {
-    id: "project-ai-job",
-    title: "AI Job Hunt Assistant",
-    description: "Asistente inteligente que optimiza la búsqueda de empleo. Analiza ofertas y adapta el CV automáticamente usando IA.",
-    technologies: ["Node.js", "OpenAI", "React"],
+    id: "project-devlinks",
+    title: "DevLinks",
+    description: "Gestor de recursos para developers. Guarda, organiza y encuentra al instante tus links, docs y tutoriales favoritos con búsqueda en tiempo real.",
+    technologies: ["React", "Node.js", "Express"],
     github: "https://github.com",
     demo: "https://demo.com"
   }
