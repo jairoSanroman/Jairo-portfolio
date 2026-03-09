@@ -10,44 +10,44 @@
     {
       "id": "project-incidencias",
       "description": "Dashboard para el Sistema de Gestión de Incidencias",
-      "imageUrl": "https://picsum.photos/seed/dashboard-ui/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800&auto=format&fit=crop",
       "imageHint": "software dashboard"
     },
     {
       "id": "project-ai-job",
       "description": "AI Job Hunt Assistant interface",
-      "imageUrl": "https://picsum.photos/seed/ai-assistant/800/600",
+      "imageUrl": "https://images.unsplash.com/photo-1675271591211-126ad94e495d?q=80&w=800&auto=format&fit=crop",
       "imageHint": "artificial intelligence"
     },
     {
       "id": "project-pokemon",
       "description": "Pokémon Run Tracker pixel art style",
-      "imageUrl": "https://picsum.photos/seed/pixel-monster/800/600",
-      "imageHint": "pixel art"
+      "imageUrl": "https://images.unsplash.com/photo-1613771404721-1f92d799e49f?q=80&w=800&auto=format&fit=crop",
+      "imageHint": "retro gaming"
     },
     {
       "id": "exp-iss",
       "description": "Operario de Limpieza - ISS Facility Services",
-      "imageUrl": "https://i.ibb.co/RGbzDX2D/cleaning.jpg",
-      "imageHint": "cleaning professional"
+      "imageUrl": "https://images.unsplash.com/photo-1528740561666-dc2479dc08ab?q=80&w=800&auto=format&fit=crop",
+      "imageHint": "professional cleaning"
     },
     {
       "id": "exp-absolute",
       "description": "Soporte de Programación - Absolute Branding Company",
-      "imageUrl": "https://ibb.co/XZztNfCJ",
+      "imageUrl": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=800&auto=format&fit=crop",
       "imageHint": "programming coding laptop"
     },
     {
       "id": "exp-id3",
       "description": "Prácticas DAM - I+D3 Equipamientos Tecnológicos",
-      "imageUrl": "https://i.ibb.co/wrKFKPNz/dam.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1531482615713-2afd69097998?q=80&w=800&auto=format&fit=crop",
       "imageHint": "software development office"
     },
     {
       "id": "exp-stellantis",
       "description": "Planta de fabricación automotriz - Grupo Stellantis",
-      "imageUrl": "https://i.ibb.co/Q7tdbZP9/automotive.jpg",
-      "imageHint": "car industry factory"
+      "imageUrl": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?q=80&w=800&auto=format&fit=crop",
+      "imageHint": "industrial factory"
     }
   ]
 }

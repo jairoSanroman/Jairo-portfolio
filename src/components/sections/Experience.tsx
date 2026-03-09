@@ -8,7 +8,7 @@ const experiences = [
     role: "Operario de Limpieza",
     company: "ISS Facility Services",
     period: "Febrero 2026 – Actualidad",
-    description: "Trabajo en el mantenimiento de instalaciones bajo altos estándares de higiene y seguridad. Coordinación con equipos multidisciplinares en entornos de gran escala y cumplimiento riguroso de protocolos de desinfección.",
+    description: "Mantenimiento de instalaciones bajo estándares profesionales de higiene y seguridad. Coordinación con equipos multidisciplinares y cumplimiento de protocolos de desinfección en entornos de gran escala.",
     type: "Laboral",
     imageId: "exp-iss"
   },
@@ -16,7 +16,7 @@ const experiences = [
     role: "Soporte de Programación",
     company: "Absolute Branding Company",
     period: "Diciembre 2024",
-    description: "Soporte técnico y mantenimiento de aplicaciones. Resolución de incidencias en código y colaboración activa con el equipo de desarrollo senior en la optimización de procesos.",
+    description: "Soporte técnico y mantenimiento de aplicaciones. Resolución de incidencias en código y colaboración activa con el equipo de desarrollo para la optimización de procesos internos.",
     type: "IT",
     imageId: "exp-absolute"
   },
@@ -24,7 +24,7 @@ const experiences = [
     role: "Prácticas DAM",
     company: "I+D3 Equipamientos Tecnológicos",
     period: "2023",
-    description: "Desarrollo de módulos funcionales y gestión de bases de datos relacionales. Aplicación de metodologías ágiles en el flujo de trabajo diario y pruebas de integración.",
+    description: "Desarrollo de módulos funcionales y gestión de bases de datos relacionales. Aplicación de metodologías ágiles en el flujo de trabajo diario y realización de pruebas de integración.",
     type: "IT",
     imageId: "exp-id3"
   },
@@ -32,7 +32,7 @@ const experiences = [
     role: "Operario",
     company: "Grupo Stellantis",
     period: "2021",
-    description: "Trabajo en cadena de montaje automotriz bajo estrictos estándares de calidad internacional. Disciplina, eficiencia y trabajo bajo presión en procesos industriales críticos.",
+    description: "Trabajo en cadena de montaje automotriz bajo estrictos estándares de calidad internacional. Disciplina, eficiencia y gestión de procesos industriales críticos bajo presión.",
     type: "Laboral",
     imageId: "exp-stellantis"
   }
@@ -56,9 +56,9 @@ export function Experience() {
             return (
               <div 
                 key={index} 
-                className="grid md:grid-cols-12 gap-8 items-stretch bg-card/40 border border-white/5 p-4 md:p-6 rounded-[2.5rem] hover:bg-card/60 hover:border-primary/20 transition-all duration-500 group shadow-2xl backdrop-blur-sm overflow-hidden"
+                className="grid md:grid-cols-12 gap-8 items-center bg-card/40 border border-white/5 p-4 md:p-6 rounded-[2.5rem] hover:bg-card/60 hover:border-primary/20 transition-all duration-500 group shadow-2xl backdrop-blur-sm overflow-hidden"
               >
-                <div className="md:col-span-5 relative h-64 md:h-auto rounded-3xl overflow-hidden bg-muted/20">
+                <div className="md:col-span-5 relative h-64 md:h-80 rounded-3xl overflow-hidden bg-muted/20">
                   <Image 
                     src={img?.imageUrl || "https://picsum.photos/seed/experience/800/600"} 
                     alt={exp.company}
