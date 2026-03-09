@@ -3,49 +3,49 @@
     {
       "id": "profile",
       "description": "Foto de perfil de Jairo Sanromán",
-      "imageUrl": "https://picsum.photos/seed/jairo-portrait/600/600",
-      "imageHint": "young man portrait beard patterned shirt"
+      "imageUrl": "https://i.ibb.co/S7rCQqbt/profile.jpg",
+      "imageHint": "young man portrait"
     },
     {
       "id": "project-incidencias",
-      "description": "Dashboard para el Sistema de Gestión de Incidencias con tarjetas tipo Kanban",
+      "description": "Dashboard para el Sistema de Gestión de Incidencias",
       "imageUrl": "https://picsum.photos/seed/dashboard-ui/800/600",
-      "imageHint": "software dashboard interface"
+      "imageHint": "software dashboard"
     },
     {
       "id": "project-ai-job",
-      "description": "Interfaz de AI Job Hunt Assistant con elementos de IA y currículums",
-      "imageUrl": "https://picsum.photos/seed/ai-assistant-resume/800/600",
-      "imageHint": "artificial intelligence document"
+      "description": "AI Job Hunt Assistant interface",
+      "imageUrl": "https://picsum.photos/seed/ai-assistant/800/600",
+      "imageHint": "artificial intelligence"
     },
     {
       "id": "project-pokemon",
-      "description": "Estética de Pokémon Run Tracker con estilo pixel art",
-      "imageUrl": "https://picsum.photos/seed/pixel-monster-game/800/600",
-      "imageHint": "pixel art monster"
+      "description": "Pokémon Run Tracker pixel art style",
+      "imageUrl": "https://picsum.photos/seed/pixel-monster/800/600",
+      "imageHint": "pixel art"
     },
     {
       "id": "exp-iss",
       "description": "Persona con guantes azules realizando tareas de limpieza profesional",
       "imageUrl": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=800&auto=format&fit=crop",
-      "imageHint": "blue gloves white cloth cleaning"
+      "imageHint": "cleaning professional"
     },
     {
       "id": "exp-absolute",
-      "description": "Soporte IT y programación en entorno de oficina moderna",
-      "imageUrl": "https://picsum.photos/seed/code-office-it/800/600",
+      "description": "Soporte IT y programación",
+      "imageUrl": "https://picsum.photos/seed/it-support/800/600",
       "imageHint": "programming office"
     },
     {
       "id": "exp-id3",
-      "description": "Equipos tecnológicos y mantenimiento de hardware",
-      "imageUrl": "https://picsum.photos/seed/server-hardware-tech/800/600",
-      "imageHint": "computer server hardware"
+      "description": "Equipos tecnológicos",
+      "imageUrl": "https://picsum.photos/seed/tech-hardware/800/600",
+      "imageHint": "computer hardware"
     },
     {
       "id": "exp-stellantis",
-      "description": "Planta de fabricación de automóviles de alta tecnología",
-      "imageUrl": "https://picsum.photos/seed/car-factory-line/800/600",
+      "description": "Planta de fabricación de automóviles",
+      "imageUrl": "https://picsum.photos/seed/car-factory/800/600",
       "imageHint": "car factory"
     }
   ]

@@ -1,4 +1,3 @@
-
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Github, Linkedin, Mail, FileText, ArrowRight } from "lucide-react"
@@ -6,6 +5,7 @@ import { PlaceHolderImages } from "@/lib/placeholder-images"
 
 export function Hero() {
   const profileImg = PlaceHolderImages.find(img => img.id === "profile")
+  const profileUrl = "https://i.ibb.co/S7rCQqbt/profile.jpg"
 
   return (
     <section id="inicio" className="relative min-h-screen flex flex-col justify-center items-center pt-20 pb-16 px-4 md:px-8 overflow-hidden bg-grid">
@@ -51,19 +51,16 @@ export function Hero() {
 
         <div className="order-1 md:order-2 flex justify-center">
           <div className="relative">
-            {/* Anillo brillante animado */}
             <div className="absolute -inset-4 bg-gradient-to-tr from-primary via-secondary to-primary rounded-full blur-2xl opacity-30 animate-pulse"></div>
             
-            {/* Contenedor circular con borde brillante */}
             <div className="relative w-64 h-64 md:w-[420px] md:h-[420px] rounded-full p-2 bg-gradient-to-tr from-primary/40 to-secondary/40">
               <div className="w-full h-full rounded-full overflow-hidden border-4 border-background/50 bg-card shadow-2xl relative group">
                 <Image 
-                  src={profileImg?.imageUrl || "https://picsum.photos/seed/jairo/600/600"} 
+                  src={profileUrl} 
                   alt="Jairo Sanromán"
                   width={600}
                   height={600}
                   className="object-cover w-full h-full grayscale group-hover:grayscale-0 transition-all duration-700 scale-110 group-hover:scale-100"
-                  data-ai-hint={profileImg?.imageHint || "professional man portrait"}
                   priority
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-background/40 to-transparent pointer-events-none" />
@@ -71,7 +68,6 @@ export function Hero() {
             </div>
             
             <div className="absolute -bottom-2 -right-4 bg-background/90 backdrop-blur-xl border border-white/10 rounded-2xl px-5 py-3 shadow-2xl neon-glow-blue transform rotate-3">
-              <p className="text-[10px] font-bold text-muted-foreground uppercase tracking-widest mb-1">Basado en</p>
               <p className="text-sm font-bold text-gradient-blue">Vigo, España 🇪🇸</p>
             </div>
           </div>
