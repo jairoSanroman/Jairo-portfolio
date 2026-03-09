@@ -58,7 +58,6 @@ export function Experience() {
                 key={index} 
                 className="grid md:grid-cols-12 gap-8 items-stretch bg-card/40 border border-white/5 p-4 md:p-6 rounded-[2.5rem] hover:bg-card/60 hover:border-primary/20 transition-all duration-500 group shadow-2xl backdrop-blur-sm overflow-hidden"
               >
-                {/* Columna Izquierda: Imagen (40% aprox en grid de 12) */}
                 <div className="md:col-span-5 relative h-64 md:h-auto rounded-3xl overflow-hidden bg-muted/20">
                   <Image 
                     src={img?.imageUrl || "https://picsum.photos/seed/experience/800/600"} 
@@ -80,7 +79,6 @@ export function Experience() {
                   </div>
                 </div>
 
-                {/* Columna Derecha: Texto (60% aprox en grid de 12) */}
                 <div className="md:col-span-7 flex flex-col justify-center p-2 md:p-6">
                   <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-4 gap-4">
                     <h3 className="text-2xl md:text-3xl font-headline font-bold text-foreground group-hover:text-primary transition-colors tracking-tight">

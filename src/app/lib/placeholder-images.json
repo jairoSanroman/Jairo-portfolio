@@ -33,21 +33,21 @@
     },
     {
       "id": "exp-absolute",
-      "description": "Soporte IT y programación",
-      "imageUrl": "https://picsum.photos/seed/it-support/800/600",
-      "imageHint": "programming office"
+      "description": "Soporte de Programación - Absolute Branding Company",
+      "imageUrl": "https://i.ibb.co/RGbzDX2D/programming.jpg",
+      "imageHint": "programming coding laptop"
     },
     {
       "id": "exp-id3",
-      "description": "Equipos tecnológicos",
-      "imageUrl": "https://picsum.photos/seed/tech-hardware/800/600",
-      "imageHint": "computer hardware"
+      "description": "Equipos tecnológicos y hardware",
+      "imageUrl": "https://picsum.photos/seed/tech-support/800/600",
+      "imageHint": "computer hardware tech"
     },
     {
       "id": "exp-stellantis",
-      "description": "Planta de fabricación de automóviles",
-      "imageUrl": "https://picsum.photos/seed/car-factory/800/600",
-      "imageHint": "car factory"
+      "description": "Planta de fabricación automotriz",
+      "imageUrl": "https://picsum.photos/seed/automotive-factory/800/600",
+      "imageHint": "car industry factory"
     }
   ]
 }
