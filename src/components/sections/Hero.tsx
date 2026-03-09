@@ -58,12 +58,13 @@ export function Hero() {
                 <Image 
                   src={profileUrl} 
                   alt="Jairo Sanromán"
-                  width={600}
-                  height={600}
-                  className="object-cover w-full h-full grayscale group-hover:grayscale-0 transition-all duration-700 scale-110 group-hover:scale-100"
+                  width={800}
+                  height={800}
+                  quality={100}
+                  className="object-cover w-full h-full transition-all duration-700 scale-105 group-hover:scale-100"
                   priority
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-background/40 to-transparent pointer-events-none" />
+                <div className="absolute inset-0 bg-gradient-to-t from-background/20 to-transparent pointer-events-none" />
               </div>
             </div>
             
