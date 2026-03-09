@@ -1,3 +1,4 @@
+
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Github, Linkedin, Mail, FileText, ArrowRight } from "lucide-react"
@@ -5,7 +6,8 @@ import { PlaceHolderImages } from "@/lib/placeholder-images"
 
 export function Hero() {
   const profileImg = PlaceHolderImages.find(img => img.id === "profile")
-  const profileUrl = "https://i.ibb.co/S7rCQqbt/profile.jpg"
+  // Usamos el enlace proporcionado directamente
+  const profileUrl = "https://ibb.co/Y7sVBcNc"
 
   return (
     <section id="inicio" className="relative min-h-screen flex flex-col justify-center items-center pt-20 pb-16 px-4 md:px-8 overflow-hidden bg-grid">
@@ -63,6 +65,7 @@ export function Hero() {
                   quality={100}
                   className="object-cover w-full h-full transition-all duration-700 scale-105 group-hover:scale-100"
                   priority
+                  unoptimized // ImgBB a veces requiere esto para enlaces de visualización
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-background/20 to-transparent pointer-events-none" />
               </div>
