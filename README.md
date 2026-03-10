@@ -28,7 +28,6 @@
 ## 📸 Preview
 
 ![Portfolio Preview](https://i.ibb.co/Y7sVBcNc/profile.jpg) 
-> *(Sustituye esta imagen por una captura de pantalla real de tu portfolio una vez desplegado)*
 
 🔗 **Demo en Vivo**: [Próximamente disponible](#)
 
