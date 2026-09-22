@@ -14,7 +14,7 @@ const skillCategories = [
   {
     title: "Frameworks y librerías",
     icon: <Layout className="w-5 h-5 text-secondary" />,
-    skills: ["Spring Boot", "React", "Angular"]
+    skills: ["Spring Boot", "React", "Angular", "Node.js"]
   },
   {
     title: "Bases de datos",
@@ -24,7 +24,7 @@ const skillCategories = [
   {
     title: "Herramientas",
     icon: <Settings className="w-5 h-5 text-secondary" />,
-    skills: ["Git", "GitHub", "QML", "Docker", "JWT", "Swagger"]
+    skills: ["Git", "GitHub", "Docker", "JWT", "Swagger"]
   }
 ]
 

@@ -1,4 +1,3 @@
-
 import Image from "next/image"
 import { Badge } from "@/components/ui/badge"
 import { PlaceHolderImages } from "@/lib/placeholder-images"
@@ -62,8 +61,8 @@ export function Experience() {
                   
                   <div className="absolute top-4 left-4">
                     <Badge 
-                      className={`px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-widest border-none shadow-2xl ${
-                        exp.type === 'IT' ? 'bg-primary text-white' : 'bg-secondary text-background'
+                      className={`px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-widest border border-border shadow-2xl ${
+                        exp.type === 'IT' ? 'bg-primary text-white border-transparent' : 'bg-muted text-muted-foreground'
                       }`}
                     >
                       {exp.type}

@@ -1,4 +1,3 @@
-
 import Image from "next/image"
 import { Card, CardHeader, CardTitle, CardDescription, CardFooter } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
@@ -8,19 +7,11 @@ import { PlaceHolderImages } from "@/lib/placeholder-images"
 
 const projects = [
   {
-    id: "project-pokemon",
-    title: "Pokémon Run Tracker (Lovable)",
-    description: "Plataforma para gestionar retos Nuzlocke de Pokémon con seguimiento visual de rutas, equipos y reglas personalizadas.",
-    technologies: ["Lovable", "React", "Tailwind"],
-    github: "https://github.com",
-    demo: "https://demo.com"
-  },
-  {
     id: "project-incidencias",
     title: "Sistema de Gestión de Incidencias",
     description: "Aplicación robusta para la gestión de tickets corporativos. Backend securizado con JWT y documentación Swagger completa.",
     technologies: ["Java 17", "Spring Boot", "PostgreSQL"],
-    github: "https://github.com",
+    github: "https://github.com/jairoSanroman/incident-management-system",
     demo: "https://demo.com"
   },
   {
@@ -28,7 +19,15 @@ const projects = [
     title: "DevLinks",
     description: "Gestor de recursos para developers. Guarda, organiza y encuentra al instante tus links, docs y tutoriales favoritos con búsqueda en tiempo real.",
     technologies: ["React", "Node.js", "Express"],
-    github: "https://github.com",
+    github: "https://github.com/jairoSanroman/DevLinks",
+    demo: "https://demo.com"
+  },
+  {
+    id: "project-pokemon",
+    title: "Pokémon Run Tracker (Lovable)",
+    description: "Plataforma para gestionar retos Nuzlocke de Pokémon con seguimiento visual de rutas, equipos y reglas personalizadas.",
+    technologies: ["Lovable", "React", "Tailwind"],
+    github: "https://github.com/jairoSanroman/poke-tracker",
     demo: "https://demo.com"
   }
 ]
@@ -89,9 +88,11 @@ export function Projects() {
                 </CardHeader>
 
                 <CardFooter className="p-8 pt-0 mt-auto">
-                  <Button variant="link" className="p-0 text-primary hover:text-primary/80 group/btn h-auto font-bold uppercase text-xs tracking-widest">
-                    Explorar proyecto <ChevronRight className="w-4 h-4 ml-2 group-hover/btn:translate-x-2 transition-transform" />
-                  </Button>
+                  <a href={project.github} target="_blank" rel="noopener noreferrer" className="w-full">
+                    <Button variant="link" className="p-0 text-primary hover:text-primary/80 group/btn h-auto font-bold uppercase text-xs tracking-widest">
+                      Explorar proyecto <ChevronRight className="w-4 h-4 ml-2 group-hover/btn:translate-x-2 transition-transform" />
+                    </Button>
+                  </a>
                 </CardFooter>
               </Card>
             )
