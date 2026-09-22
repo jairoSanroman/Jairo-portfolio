@@ -1,3 +1,4 @@
+
 # 🚀 Jairo Sanromán | Desarrollador de Aplicaciones Multiplataforma (Junior)
 
 ¡Bienvenido a mi portfolio profesional! Este proyecto es una vitrina de mi trayectoria, habilidades y pasión por el desarrollo de software moderno. Construido con un enfoque en el rendimiento, la estética "Dark Tech" y la integración de Inteligencia Artificial.
@@ -12,6 +13,7 @@
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Genkit](https://img.shields.io/badge/Genkit-IA-blue?style=for-the-badge)
 ![Shadcn/UI](https://img.shields.io/badge/Shadcn/UI-000000?style=for-the-badge&logo=shadcnui&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
 ---
 
@@ -21,6 +23,7 @@
 - 📱 **Diseño Ultra-Responsivo**: Una experiencia fluida y profesional en cualquier dispositivo, desde móviles hasta pantallas ultra-wide.
 - 🎨 **Estética Dark Mode**: Interfaz técnica y minimalista inspirada en entornos de desarrollo modernos.
 - ⚡ **Next.js 15 (App Router)**: Aprovechando Server Components y Server Actions para una carga instantánea.
+- 📈 **Insights & Analytics**: Integrado con Vercel para monitorear el rendimiento y la interacción del usuario en tiempo real.
 - 📊 **Sección de Experiencia Dinámica**: Historial profesional presentado en un formato de dos columnas elegante y fácil de leer.
 
 ---
