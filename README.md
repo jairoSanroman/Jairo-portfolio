@@ -30,7 +30,6 @@
 ## 📸 Preview
 
 ![Portfolio Preview](https://i.ibb.co/Y7sVBcNc/profile.jpg) 
-> *(Captura de pantalla real de la foto de perfil en el entorno de desarrollo)*
 
 🔗 **Demo en Vivo**: [Próximamente disponible](#)
 
