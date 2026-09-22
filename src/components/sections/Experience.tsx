@@ -5,14 +5,6 @@ import { PlaceHolderImages } from "@/lib/placeholder-images"
 
 const experiences = [
   {
-    role: "Operario de Limpieza",
-    company: "ISS Facility Services",
-    period: "Febrero 2026 – Actualidad",
-    description: "Mantenimiento de instalaciones bajo estándares profesionales de higiene y seguridad. Coordinación con equipos multidisciplinares y cumplimiento de protocolos de desinfección en entornos de gran escala.",
-    type: "Laboral",
-    imageId: "exp-iss"
-  },
-  {
     role: "Soporte de Programación",
     company: "Absolute Branding Company",
     period: "Diciembre 2024",
