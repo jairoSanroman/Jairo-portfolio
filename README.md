@@ -1,4 +1,3 @@
-
 # 🚀 Jairo Sanromán | Desarrollador de Aplicaciones Multiplataforma (Junior)
 
 ¡Bienvenido a mi portfolio profesional! Este proyecto es una vitrina de mi trayectoria, habilidades y pasión por el desarrollo de software moderno. Construido con un enfoque en el rendimiento, la estética "Dark Tech" y la integración de Inteligencia Artificial.
@@ -69,6 +68,16 @@ Si deseas explorar el código o ejecutar el proyecto en tu máquina:
    npm run dev
    ```
    Abre [http://localhost:9002](http://localhost:9002) en tu navegador.
+
+---
+
+## 🔧 Solución de Problemas (Git)
+
+Si al sincronizar tu repositorio remoto te encuentras con un error de historiales no relacionados (común al unir repositorios inicializados de forma independiente), puedes forzar la sincronización usando:
+
+```bash
+git pull origin main --allow-unrelated-histories
+```
 
 ---
 
