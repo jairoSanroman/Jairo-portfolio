@@ -63,7 +63,7 @@ export function Experience() {
                     src={img?.imageUrl || "https://picsum.photos/seed/experience/800/600"} 
                     alt={exp.company}
                     fill
-                    className="object-cover grayscale group-hover:grayscale-0 transition-all duration-700 scale-105 group-hover:scale-100"
+                    className="object-cover transition-all duration-700 scale-105 group-hover:scale-100"
                     data-ai-hint={img?.imageHint || "workplace image"}
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-background/60 via-transparent to-transparent opacity-40" />
@@ -84,7 +84,7 @@ export function Experience() {
                     <h3 className="text-2xl md:text-3xl font-headline font-bold text-foreground group-hover:text-primary transition-colors tracking-tight">
                       {exp.role}
                     </h3>
-                    <span className="text-[10px] font-bold text-muted-foreground px-4 py-1.5 rounded-full bg-white/5 border border-white/10 uppercase tracking-tighter whitespace-nowrap">
+                    <span className="text-[10px] font-bold text-muted-foreground px-4 py-1.5 rounded-full bg-white/5 border border-white/10 uppercase tracking-tighter whitespace-nowrap" suppressHydrationWarning>
                       {exp.period}
                     </span>
                   </div>
