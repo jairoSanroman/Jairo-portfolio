@@ -31,7 +31,7 @@
 ## 📸 Preview
 
 ![Portfolio Preview](https://i.ibb.co/Y7sVBcNc/profile.jpg) 
-> *(Sustituye esta imagen por una captura de pantalla real de tu portfolio una vez desplegado)*
+> *(Captura de pantalla real de la foto de perfil en el entorno de desarrollo)*
 
 🔗 **Demo en Vivo**: [Próximamente disponible](#)
 
@@ -52,13 +52,19 @@ Si deseas explorar el código o ejecutar el proyecto en tu máquina:
    npm install
    ```
 
-3. **Configurar variables de entorno**:
+3. **Configuración de Git (Recomendado)**:
+   Para evitar conflictos durante las actualizaciones, se recomienda configurar el comportamiento del pull:
+   ```bash
+   git config pull.rebase false
+   ```
+
+4. **Configurar variables de entorno**:
    Crea un archivo `.env` en la raíz con tu clave de API de Google:
    ```env
    GOOGLE_GENAI_API_KEY=tu_api_key_aqui
    ```
 
-4. **Lanzar el servidor de desarrollo**:
+5. **Lanzar el servidor de desarrollo**:
    ```bash
    npm run dev
    ```
