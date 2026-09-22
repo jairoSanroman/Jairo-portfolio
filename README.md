@@ -20,9 +20,9 @@
 
 - 🧠 **IA Skill Matcher**: Integración con **Google Gemini (Genkit)** que analiza dinámicamente cómo mis habilidades técnicas se aplican a mis proyectos reales.
 - 📱 **Diseño Ultra-Responsivo**: Una experiencia fluida y profesional en cualquier dispositivo, desde móviles hasta pantallas ultra-wide.
-- 🎨 **Estética Dark Mode**: Interfaz técnica y minimalista inspirada en entornos de desarrollo modernos.
-- ⚡ **Next.js 15 (App Router)**: Aprovechando Server Components y Server Actions para una carga instantánea.
-- 📈 **Insights & Analytics**: Integrado con Vercel para monitorear el rendimiento y la interacción del usuario en tiempo real.
+- 🎨 **Estética Dark Mode**: Interfaz técnica y minimalista inspirada en entornos de desarrollo modernos con acentos de neón azul y verde.
+- ⚡ **Next.js 15 (App Router)**: Aprovechando Server Components y Server Actions para una carga instantánea y optimizada.
+- 📈 **Insights & Analytics**: Integrado con Vercel Analytics y Speed Insights para monitorear el rendimiento y la interacción del usuario en tiempo real.
 - 📊 **Sección de Experiencia Dinámica**: Historial profesional presentado en un formato de dos columnas elegante y fácil de leer.
 
 ---
@@ -52,7 +52,7 @@ Si deseas explorar el código o ejecutar el proyecto en tu máquina:
    ```
 
 3. **Configuración de Git (Recomendado)**:
-   Para evitar conflictos durante las actualizaciones, se recomienda configurar el comportamiento del pull:
+   Para evitar conflictos durante las actualizaciones de ramas, se recomienda configurar el comportamiento del pull:
    ```bash
    git config pull.rebase false
    ```
@@ -71,12 +71,16 @@ Si deseas explorar el código o ejecutar el proyecto en tu máquina:
 
 ---
 
-## 🔧 Solución de Problemas (Git)
+## 🔧 Solución de Problemas (Git Workflow)
 
-Si al sincronizar tu repositorio remoto te encuentras con un error de historiales no relacionados (común al unir repositorios inicializados de forma independiente), puedes forzar la sincronización usando:
+Si al sincronizar tu repositorio remoto te encuentras con un error de historiales no relacionados (común al unir repositorios inicializados de forma independiente), puedes solucionarlo y subir tus cambios con los siguientes comandos:
 
 ```bash
+# Permitir historiales no relacionados al traer cambios remotos
 git pull origin main --allow-unrelated-histories
+
+# Subir la rama principal de forma definitiva al repositorio remoto
+git push origin main
 ```
 
 ---
